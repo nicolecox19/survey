@@ -6,7 +6,7 @@ $(document).ready(function() {
     var catdogInput = $("input:radio[name=catdog]:checked").val();
     var birthdayInput = $("input#birthday").val();
     var hometownInput = $("input#hometown").val();
-    var favoriteColorInput = $("#color").val();
+    var colorInput = $("#color").val();
 
     $(".person1").text(person1Input);
     $(".favfood").text(favfoodInput);
@@ -14,7 +14,7 @@ $(document).ready(function() {
     $(".catdog").text(catdogInput);
     $(".birthday").text(birthdayInput);
     $(".hometown").text(hometownInput);
-    $(".color").color(colorInput);
+    $(".color").text(colorInput);
 
     $("#story").show();
 
