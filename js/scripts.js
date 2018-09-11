@@ -3,7 +3,7 @@ $(document).ready(function() {
     var person1Input = $("input#person1").val();
     var favfoodInput = $("input#favfood").val();
     var musicInput= $("input#music").val();
-    var catdogInput = $("input#catdog").val();
+    var catdog = $("input:radio[name=catdog]:checked").val();
     var birthdayInput = $("input#birthday").val();
     var hometownInput = $("input#hometown").val();
     var colorInput = $("input#color").val();
